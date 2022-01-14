@@ -19,6 +19,7 @@ id = song["result"]["id"]
 song_lyrics = genius.lyrics(id)
 artist_name = song["result"]["primary_artist"]["name"]
 title = song["result"]["title"]
+song_url = song["result"]["url"]
 
 song_lyrics = song_lyrics.replace("EmbedShare URLCopyEmbedCopy", "")
 
