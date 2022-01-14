@@ -29,3 +29,31 @@ for i in range(len(song_lyrics) - 1, -1, -1):
     else:
         break
 print("".join(list_lyrics))
+
+# removing end numbers from string
+# lyrics = list("fhee34ohgekwpe6921")
+
+# for i in range(len(lyrics) - 1, -1, -1):
+#     # print(lyrics[i], i)
+#     if lyrics[i].isdigit() == True:
+#         lyrics[i] = ""
+#     else:
+#         break
+# print("".join(lyrics))
+
+
+# for i in range(len(song_lyrics)):
+#     print(-i)
+
+
+# -21 to remove extra words (URL EMBEDDED etc.)
+# print(
+#     f"""
+# -----------------------------
+# {title} by {artist_name}
+# -----------------------------
+
+# {song_lyrics}
+
+# ---powered by lyricgenius---"""
+# )
