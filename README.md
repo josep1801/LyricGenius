@@ -15,5 +15,5 @@ Sign in to https://docs.genius.com/ to get API Keys and copy it into env.example
 2. Using Genius Api and web-scrapping, lyrics would be produced in the terminal
 
 ## More options 
--- use other variables such us "title" within f-string to access the titles of the song. (includes "artist_name","song_url" and "id"
+-- use other variables such us "title" within f-string to access the titles of the song. (includes "artist_name","song_url" and "id")
 
